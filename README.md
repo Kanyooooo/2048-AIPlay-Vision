@@ -54,13 +54,13 @@ pip install opencv-python pyautogui keyboard pillow numpy
 
 # 3. 运行程序
 cd 2048
-python ab.py
+python AI2048.py
 ```
 
 ### 首次使用
 
 ```
-1. 运行 python ab.py
+1. 运行 python AI2048.py
 2. 选择运行模式（推荐从冥想模式开始）
 3. 根据提示配置参数
 4. 观察AI训练和游戏过程
@@ -171,7 +171,7 @@ python ab.py
      └─ 自动适应不同分辨率
 ```
 
-**配置参数**（`ab.py` 中）:
+**配置参数**（`AI2048.py` 中）:
 ```python
 TRY_AGAIN_RELATIVE_X = 250      # 按钮X偏移（基准500）
 TRY_AGAIN_RELATIVE_Y = 360      # 按钮Y偏移（基准500）
@@ -775,7 +775,7 @@ python -c "import shutil; shutil.copy('game_history.json', 'backup_$(date +%Y%m%
 
 ```
 2048/
-├── ab.py                       # 主程序（冥想+实战模式）
+├── AI2048.py                       # 主程序（冥想+实战模式）
 ├── calibrate.py                # 校准工具
 ├── ab_ocr.py                   # OCR版本（备用）
 │
