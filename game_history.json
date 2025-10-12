@@ -1,0 +1,171 @@
+{
+  "games": [
+    {
+      "start_time": "2025-10-12T17:15:39.652067",
+      "strategy": {
+        "name": "左下角策略",
+        "priority": {
+          "down": 2000,
+          "left": 2000,
+          "right": 50,
+          "up": 1
+        },
+        "empty_weight": 500000,
+        "merge_weight": 5000,
+        "adjacent_weight": 1500,
+        "corner": "左下"
+      },
+      "max_tile": 1024,
+      "final_score": 0,
+      "moves_count": 1014,
+      "duration": 556.28,
+      "success": false,
+      "end_time": "2025-10-12T17:24:55.935155"
+    },
+    {
+      "start_time": "2025-10-12T17:31:30.688740",
+      "strategy": {
+        "name": "左下角策略",
+        "priority": {
+          "down": 2000,
+          "left": 2000,
+          "right": 50,
+          "up": 1
+        },
+        "empty_weight": 500000,
+        "merge_weight": 5000,
+        "adjacent_weight": 1500,
+        "corner": "左下"
+      },
+      "max_tile": 1024,
+      "final_score": 0,
+      "moves_count": 953,
+      "duration": 675.56,
+      "success": false,
+      "end_time": "2025-10-12T17:42:46.244760"
+    },
+    {
+      "start_time": "2025-10-12T18:35:14.936451",
+      "strategy": {
+        "name": "左下角策略",
+        "priority": {
+          "down": 2000,
+          "left": 2000,
+          "right": 50,
+          "up": 1
+        },
+        "empty_weight": 500000,
+        "merge_weight": 5000,
+        "adjacent_weight": 1500,
+        "corner": "左下"
+      },
+      "max_tile": 2048,
+      "final_score": 27028,
+      "moves_count": 1397,
+      "duration": 0.0,
+      "success": true,
+      "end_time": "2025-10-12T18:35:14.936451"
+    },
+    {
+      "start_time": "2025-10-12T18:49:01.411997",
+      "strategy": {
+        "name": "左下角策略",
+        "priority": {
+          "down": 2000,
+          "left": 2000,
+          "right": 50,
+          "up": 1
+        },
+        "empty_weight": 500000,
+        "merge_weight": 5000,
+        "adjacent_weight": 1500,
+        "corner": "左下"
+      },
+      "max_tile": 1024,
+      "final_score": 16332,
+      "moves_count": 967,
+      "duration": 0.0,
+      "success": false,
+      "end_time": "2025-10-12T18:49:01.411997"
+    },
+    {
+      "start_time": "2025-10-12T18:54:20.161316",
+      "strategy": {
+        "name": "Bayesian_4",
+        "priority": {
+          "down": 2000,
+          "left": 2000,
+          "right": 50,
+          "up": 1
+        },
+        "empty_weight": 500000,
+        "merge_weight": 5000,
+        "adjacent_weight": 1500,
+        "corner": "左下"
+      },
+      "max_tile": 2048,
+      "final_score": 34668,
+      "moves_count": 1786,
+      "duration": 0.0,
+      "success": true,
+      "end_time": "2025-10-12T18:54:20.161316"
+    },
+    {
+      "start_time": "2025-10-12T18:57:22.241097",
+      "strategy": {
+        "name": "Bayesian_5",
+        "priority": {
+          "down": 2150,
+          "left": 2000,
+          "right": 50,
+          "up": 1
+        },
+        "empty_weight": 500000,
+        "merge_weight": 4924,
+        "adjacent_weight": 1500,
+        "corner": "左下"
+      },
+      "max_tile": 1024,
+      "final_score": 16064,
+      "moves_count": 932,
+      "duration": 0.0,
+      "success": false,
+      "end_time": "2025-10-12T18:57:22.241097"
+    },
+    {
+      "start_time": "2025-10-12T19:44:28.911953",
+      "strategy": {
+        "name": "Bayesian_4",
+        "priority": {
+          "down": 2000,
+          "left": 2000,
+          "right": 50,
+          "up": 1
+        },
+        "empty_weight": 500000,
+        "merge_weight": 5000,
+        "adjacent_weight": 1500,
+        "corner": "左下"
+      },
+      "max_tile": 512,
+      "final_score": 548,
+      "moves_count": 363,
+      "duration": 311.95,
+      "success": false,
+      "end_time": "2025-10-12T19:49:40.865173"
+    }
+  ],
+  "best_strategy": {
+    "name": "Bayesian_4",
+    "priority": {
+      "down": 2000,
+      "left": 2000,
+      "right": 50,
+      "up": 1
+    },
+    "empty_weight": 500000,
+    "merge_weight": 5000,
+    "adjacent_weight": 1500,
+    "corner": "左下"
+  }
+}

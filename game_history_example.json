@@ -1,0 +1,85 @@
+{
+  "games": [
+    {
+      "start_time": "2025-10-12T14:30:00.123456",
+      "end_time": "2025-10-12T14:35:30.654321",
+      "strategy": {
+        "name": "左下角策略",
+        "priority": {
+          "down": 2000,
+          "left": 2000,
+          "right": 50,
+          "up": 1
+        },
+        "empty_weight": 500000,
+        "merge_weight": 5000,
+        "adjacent_weight": 1500,
+        "corner": "左下"
+      },
+      "max_tile": 2048,
+      "final_score": 23456,
+      "moves_count": 1234,
+      "duration": 330.53,
+      "success": true
+    },
+    {
+      "start_time": "2025-10-12T15:00:00.123456",
+      "end_time": "2025-10-12T15:04:20.654321",
+      "strategy": {
+        "name": "右下角策略",
+        "priority": {
+          "down": 2000,
+          "right": 2000,
+          "left": 50,
+          "up": 1
+        },
+        "empty_weight": 500000,
+        "merge_weight": 5000,
+        "adjacent_weight": 1500,
+        "corner": "右下"
+      },
+      "max_tile": 1024,
+      "final_score": 12345,
+      "moves_count": 890,
+      "duration": 260.53,
+      "success": false
+    },
+    {
+      "start_time": "2025-10-12T15:30:00.123456",
+      "end_time": "2025-10-12T15:36:10.654321",
+      "strategy": {
+        "name": "左下角策略_变体1",
+        "priority": {
+          "down": 2000,
+          "left": 2000,
+          "right": 50,
+          "up": 1
+        },
+        "empty_weight": 600000,
+        "merge_weight": 6000,
+        "adjacent_weight": 1800,
+        "corner": "左下"
+      },
+      "max_tile": 2048,
+      "final_score": 25678,
+      "moves_count": 1345,
+      "duration": 370.53,
+      "success": true
+    }
+  ],
+  "best_strategy": {
+    "name": "左下角策略_变体1",
+    "priority": {
+      "down": 2000,
+      "left": 2000,
+      "right": 50,
+      "up": 1
+    },
+    "empty_weight": 600000,
+    "merge_weight": 6000,
+    "adjacent_weight": 1800,
+    "corner": "左下"
+  }
+}
+
+
