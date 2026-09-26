@@ -153,6 +153,94 @@
       "duration": 311.95,
       "success": false,
       "end_time": "2025-10-12T19:49:40.865173"
+    },
+    {
+      "start_time": "2025-10-12T20:35:56.946774",
+      "strategy": {
+        "name": "Bayesian_4",
+        "priority": {
+          "down": 2000,
+          "left": 2000,
+          "right": 50,
+          "up": 1
+        },
+        "empty_weight": 500000,
+        "merge_weight": 5000,
+        "adjacent_weight": 1500,
+        "corner": "左下"
+      },
+      "max_tile": 1024,
+      "final_score": 280,
+      "moves_count": 513,
+      "duration": 425.23,
+      "success": false,
+      "end_time": "2025-10-12T20:43:02.178875"
+    },
+    {
+      "start_time": "2025-10-12T20:44:52.354619",
+      "strategy": {
+        "name": "Bayesian_4",
+        "priority": {
+          "down": 2000,
+          "left": 2000,
+          "right": 50,
+          "up": 1
+        },
+        "empty_weight": 500000,
+        "merge_weight": 5000,
+        "adjacent_weight": 1500,
+        "corner": "左下"
+      },
+      "max_tile": 1024,
+      "final_score": 354,
+      "moves_count": 446,
+      "duration": 360.14,
+      "success": false,
+      "end_time": "2025-10-12T20:50:52.490969"
+    },
+    {
+      "start_time": "2025-11-04T20:18:15.405386",
+      "strategy": {
+        "name": "Bayesian_4",
+        "priority": {
+          "down": 2000,
+          "left": 2000,
+          "right": 50,
+          "up": 1
+        },
+        "empty_weight": 500000,
+        "merge_weight": 5000,
+        "adjacent_weight": 1500,
+        "corner": "左下"
+      },
+      "max_tile": 64,
+      "final_score": 8,
+      "moves_count": 55,
+      "duration": 38.67,
+      "success": false,
+      "end_time": "2025-11-04T20:18:54.078971"
+    },
+    {
+      "start_time": "2025-11-04T20:19:11.593133",
+      "strategy": {
+        "name": "Bayesian_4",
+        "priority": {
+          "down": 2000,
+          "left": 2000,
+          "right": 50,
+          "up": 1
+        },
+        "empty_weight": 500000,
+        "merge_weight": 5000,
+        "adjacent_weight": 1500,
+        "corner": "左下"
+      },
+      "max_tile": 1024,
+      "final_score": 452,
+      "moves_count": 730,
+      "duration": 586.49,
+      "success": false,
+      "end_time": "2025-11-04T20:28:58.086556"
     }
   ],
   "best_strategy": {
